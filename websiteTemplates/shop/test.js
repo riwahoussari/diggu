@@ -235,9 +235,6 @@ function iterateModal(totCard, FA, FA1, imgOne, imgThree , imgTwo, modal, relImg
     let relatedCard = document.getElementById(FA[0]+"-"+(FA1))
     modal.querySelector('h1').textContent = relatedCard.querySelector('h1').textContent
     modal.querySelector('h2').textContent = relatedCard.querySelector('h2').textContent
-    // relImg1.style.backgroundImage = `url('assets/${FA[0]+"-"+(FA1+1)}/imgOne.png')`
-    // relImg2.style.backgroundImage = `url('assets/${FA[0]+"-"+(FA1+2)}/imgOne.png')`
-    // relImg3.style.backgroundImage = `url('assets/${FA[0]+"-"+(FA1+3)}/imgOne.png')`
     if(FA1 < totCard - 2){
         relImg1.style.backgroundImage = `url('assets/${FA[0]}/${FA[0]+"-"+(FA1+1)}/imgOne.png')`
         relImg2.style.backgroundImage = `url('assets/${FA[0]}/${FA[0]+"-"+(FA1+2)}/imgOne.png')`

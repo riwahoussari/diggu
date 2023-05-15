@@ -29,7 +29,6 @@
     font-weight: 700;
     margin: min(1vw,1rem) 0 min(1.5vw,1.5rem) 0;
 }
-
 .heroBtn{
     font-size: min(3vw , 2rem);
     font-weight: 700;
@@ -139,7 +138,6 @@
     background-image: url(./../cards/blue.png);
     background-size: cover;
 }
-
 @media (max-width: 1000px) {
     .hero{
         justify-content: center;
@@ -161,8 +159,6 @@
         padding: max(0.5vw,10px) max(1vw,20px);
     }
 }
-
-
 @media (hover : hover) {
     .heroContent .heroBtn:hover{
         color: var(--white);

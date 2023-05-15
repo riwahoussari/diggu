@@ -1,7 +1,5 @@
-window.addEventListener('load' , ()=>{
-    window.addEventListener('animationend' , ()=>{
-        document.querySelector('.preloader').style.display = 'none'
-    })
+window.addEventListener('animationend' , ()=>{
+    document.querySelector('.preloader').style.display = 'none'
 })
 ///////////////////////////////////////////header funcs
 // navbar display 
@@ -320,9 +318,6 @@ function linkFocusOnScroll(){
 window.addEventListener('scroll' , linkFocusOnScroll)
 linkFocusOnScroll()
 ///////////////////////////////////////////portfolio funcs
-
-
-
 
 //click to pause and unpause
 let pauseWebs = document.querySelector('.pauseWebs')

@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* scroll-behavior: ; */
     font-family: 'poppins' , sans-serif;
     color: white;
     user-select: none;
@@ -196,7 +195,6 @@
 }
 
 .cardImg{
-    /* background-color: black; */
     border-radius: 10px;
     width: min(25vw,125px);
     height: min(25vw,125px);
@@ -206,21 +204,18 @@
     height: 100%;
 }
 .cardText{
-    /* background-color: rgba(0, 128, 0, 0.514); */
     width: min(57.5vw,287.5px);
     height: min(30vw,150px);
     display: flex;
     flex-direction: column;
 }
 .namePrice{
-    /* background-color: rgba(0, 0, 255, 0.527); */
     width: 100%;
     height: min(15vw,75px);
     display: flex;
     justify-content: space-between;
 }
 .name{
-    /* background-color: gray; */
     width: 70%;
     height: min(15vw,75px);
 
@@ -232,7 +227,6 @@
     display: flex;
     align-items: center;
 }.price{
-    /* background-color: yellow; */
     width: 30%;
     height: min(15vw,75px);
 

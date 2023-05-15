@@ -195,7 +195,6 @@
     background-color: #daa520;
     box-shadow: none;
 }
-
 .services .hidden:nth-child(1){
     transition: opacity 1s, filter 1s, transform 1s 0.4s;
 }
@@ -205,8 +204,6 @@
 .services .hidden:nth-child(3){
     transition: opacity 1s, filter 1s, transform 1s;
 }
-
-
 @media (max-width: 400px) {
     .services .container .card{
         width: 17.1875rem;
@@ -226,7 +223,6 @@
         font-size: 1.08rem;
     }
 }
-
 .bigHover{
     position: absolute;
     top: 35px;
@@ -234,9 +230,7 @@
     left: 0;
     bottom: 40px;
     z-index: 1;
-    /* background-color: red; */
 }.smallHover{
-    /* background-color: palegoldenrod; */
     border-top-left-radius: 15px;
     position: absolute;
     top: 0px;

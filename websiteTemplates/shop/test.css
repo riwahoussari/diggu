@@ -287,10 +287,6 @@
     transition: all 150ms ease-in-out;
 }
 .modal{
-    /* width: 70%; */
-    /* max-width: 1200px ; */
-    /* max-height: 95vh; */
-    /* aspect-ratio: 4/3; */
     width: 90vw;
     height: min(60vw , 90vh);
 
@@ -403,7 +399,6 @@
 }
 .aboutProduct{
     width: 95%;
-    /* margin: min(1.3vw,13px) 0 0 0; */
 }.aboutProduct p{
     font-weight: 500;
     font-size: min(1.8vw,18px);
